@@ -1,0 +1,154 @@
+
+/* for Dextop navbar design */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.nav_logo{
+    text-align: center;
+}
+.nav_heading h1{
+    text-align: right;
+}
+.profile-desc p{
+    top: 10px;
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    width: 50%;
+}
+.navBar_menu{
+    flex-direction: row;
+}
+/*dextop Navbar design ends*/
+/* dextop Nabar starts here*/
+.profile .top-weather-icon{
+    right: 150px;
+    width: 120px;
+    transition: width 2s,transform 2s;
+}
+
+
+.profile 
+.top-weather-icon:hover{
+ width:140px;
+}
+.profile 
+.bottom-weather-icon{
+    left: 200px;
+    width: 120px;
+    transition: width 2s,transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+ width:140px;
+}
+/*dextop Navbar ends here*/
+
+/* about me design starts here*/
+.about-me{
+    margin-top: 100px;
+
+}
+.aboutme-image img{
+    height: 270px;   
+}
+.aboutme-dsc p{
+    text-align: left;
+}
+/*About me design ends here */
+/**/
+/**/
+
+/*Professional Experience  design has been started*/
+.professional_experience{
+    padding: 1% 5%;
+}
+
+#projects {
+	background-color: #f9f9f9;
+	padding: 80px 0;
+  }
+  
+  .projects {
+	text-align: center;
+  }
+  
+  .section-title {
+	color: #333;
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+  }
+
+  .projects{
+	display: flex;
+	flex-direction: column;
+  }
+
+  .project-list{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 40px;
+  }
+  
+  .project-item {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 274px;
+    height: 189px;
+  }
+  
+  .project-item h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .project-item p {
+	font-size: 1rem;
+	color: #666;
+	margin-bottom: 15px;
+  }
+  
+  .project-item a {
+	display: inline-block;
+	background-color: #74b1b3;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+  }
+  
+  .project-item a:hover {
+	background-color: #0056b3;
+  }
+/*Professional Experience design has been ended*/
+/*Achievement Contact section design starts here*/
+
+/*Achievement Contact Section design ends here*/
+
+.contact_links_{
+    position: relative;
+}
+.media-button{
+   position:absolute;
+   margin-top:140px ;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}

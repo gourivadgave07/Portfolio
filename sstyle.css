@@ -1,0 +1,492 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*Satisfy*/
+
+/*
+font-family: 'Rubik Beastly', cursive;
+*/
+/*navbar design starts*/
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.navBar{
+    background-color:#40868b;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navBar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/*
+ for mobile
+*/
+
+[class*="col-"]{
+    width: 100%;
+}
+.navBar h1{
+    color:white;
+    margin: 0;
+    padding-top: 10px;
+}
+.navBar_menu{
+   display: flex;
+   flex-direction: column;
+   text-transform: uppercase;
+}
+.navBar_menu a{
+    background-color: #0c6168;
+    border-radius:10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+.navBar_menu a:hover{
+    background-color: grey;
+    justify-content: flex-end;
+}
+.navBar_menu a{
+    padding: 5px 10px;
+    margin: 20px 0px;
+    border-radius: 10%;
+    background-color: transparent;
+}
+/*Navbar desing ends here*/
+/*Profile design starts from here for mobile */
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.profile{
+    padding:130px 10px;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+.profile .top-weather-icon{
+   position: absolute;
+    right: 60px;
+    width: 100px;
+    top: -95px;
+    transition:transform 2s;
+    margin-right:25px ;
+}
+
+.profile .top-weather-icon:hover{
+   transform: rotate(360deg);
+ }
+.profile-desc h1{
+    font-size: 3rem;
+    bottom: 100px;
+   font-family: 'Satisfy',cursive;
+}
+.profile p{
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+  .profile 
+  .bottom-weather-icon{
+   position: absolute;
+   width: 100px;
+   transition: transform 2s;
+   right: 320px;
+  }
+  .profile
+ .bottom-weather-icon:hover{
+    transform:rotate(360deg);
+ }
+ .profile::after{
+    display: table;
+    content: '';
+    clear: both;
+ }
+/*Profile design ends from here for mobile*/ 
+.about-me{
+    margin-top: 200px;
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    color: white;
+    font-family: sans-serif;
+}
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+
+}
+.aboutme-image img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.about-me a{
+ font-size: 1.2rem;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.dotted-hr{
+    border:  dotted 6px white;
+    border-bottom: none;
+    margin: 20px  auto;
+    width: 110px;
+}
+.about-me-hr{
+    display: flex;
+    
+}
+.cv-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.cv-button:hover{
+    background-color: orange;
+    color:black;
+}
+.certi-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: right;
+}
+.certi-button:hover{
+    background-color: orange;
+    color:black;
+}
+/* .proj-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: left;
+}
+.proj-button:hover{
+    background-color: orange;
+    color:black;
+} */
+/*Professional Experience  design has been started*/
+.professional_experience{
+ padding: 1% 0%;
+}
+.professional_experience .card
+{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    height: 530px;
+    transition: 0.3s;
+}
+.professional_experience .card:hover{
+    box-shadow:  0 4px 8px 5px black;
+}
+.card_icon{
+    text-align: center;
+}
+.card_title{
+    text-align: center;
+    margin-bottom: 25px;
+    background-color:transparent
+}
+.card_title:hover{
+    background-color: gray;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    transition: 1s;
+    color: white;
+}
+
+.rounded-img
+{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.card_icon img{
+    width: 100px;
+    margin-top:20px ;
+}
+.aboutme-hr{
+    margin: 25px;
+}
+.card_descriptio ol{
+    list-style-type: none;
+   
+    justify-content: center;
+}
+.professional_experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 6px; /* Add top padding */
+  padding-bottom: 0px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.container1{
+    width: 100%;
+    background-color: #a1b5b7;  
+}
+.card_descriptio-h
+{
+    background-color:#8fc4c7 ;
+}
+.skills-c{
+    border: 3px solid #8fc4c7;
+    height: 100%;
+    padding: 9rem;
+    background-color:#8fc4c7 ;
+}
+
+.html {width: 60%; background-color: #04AA6D;} /* Green */
+.css {width: 40%; background-color: #2196F3;} /* Blue */
+.js {width: 35%; background-color: #f44336;} /* Red */
+.C {width: 80%; background-color: #808080;} /* Dark Grey */
+.CPP {width: 70%; background-color: #b59b32;} /* Dark Grey */
+.oop {width: 60%; background-color: #7dc624;} /* Dark Grey */
+.java {width: 58%; background-color: #0b255e;} /* Dark Grey */
+.excel {width: 80%; background-color: #870f4b;} /* Dark Grey */
+.Python {width: 45%; background-color: #32810d;} /* Dark Grey */
+
+/*Professional Experience design has been ended*/
+/*Achievement Contact section design starts here*/
+.container {
+    width:100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  #projects {
+	background-color: #f9f9f9;
+	padding: 80px 0;
+  }
+  
+  .projects {
+	text-align: center;
+  }
+  
+  .section-title {
+	color: #333;
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+  }
+
+  .projects{
+	display: flex;
+	flex-direction: column;
+  }
+
+  .project-list{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 100px;
+  }
+  
+  .project-item {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 274px;
+    height: 189px;
+  }
+  
+  .project-item h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .project-item p {
+	font-size: 1rem;
+	color: #666;
+	margin-bottom: 15px;
+    text-align: center;
+    
+  }
+  
+  .project-item a {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+  }
+  
+  .project-item a:hover {
+	background-color: #0056b3;
+  }
+.achievement_contact{
+    background-color: #39a4ac;
+    color: white;
+    margin: 1% 8%;
+    padding: 10px 20px;
+    height: auto;
+}
+.achievement_contact::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.achievement_part_ p{
+    margin: 10px 20px;
+}
+
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+.contact_part_{
+    text-align: center;
+}
+.contact_part_ form  p{
+    margin: 10px 20px;
+
+}
+.contact_part_ input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius:5px;
+    resize: none;
+    margin: 3px
+}
+.contact_part_ form p:nth-child(1){
+    margin-left:15px;
+}
+.contact_part_ form p:nth-child(2){
+    margin-left: 15px;
+}
+.contact_part_ button{
+    border: none;
+    border-radius:12px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color:#052d2f;
+    color: white;
+    font-weight:bold;
+}
+.contact_part_ button:hover{
+    background-color: yellow;
+    color: black;
+}
+.contact_links_{
+    text-align: center;
+}
+.media-button .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size:32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+.media-button .btn:hover{
+    background-color: grey;
+}
+.btn1{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size:32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+.btn1:hover{
+    background-color: grey;
+}
+.footer_section_{
+    background-color:black;
+    color: white;
+    padding: 20px;
+    margin-top:10px ;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.fotter_Menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+.footer_section_::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.fotter_Menu a:hover{
+    color: grey;
+}
+.fotter_description_section p{
+    font-size: 15px;
+    text-align: center;
+}
+.fotter_description_section p:hover{
+    color: orange;
+    cursor: pointer;
+
+}
+
+form{
+margin: 3px;
+}
+@media (max-width:450px){
+	.project-list{
+		flex-direction: column;
+	}
+}
